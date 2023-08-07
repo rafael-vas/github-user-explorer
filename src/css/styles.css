@@ -114,7 +114,7 @@ main {
 .container .profile-data .info img {
   flex: 1;
   border-radius: 50%;
-  max-width: 350px;
+  max-width: 330px;
 }
 
 .container .profile-data .info .name {
@@ -267,7 +267,8 @@ main {
 }
 
 .container .profile-data .event-section .event-item .message.empty {
-  opacity: 0.4;
+  opacity: 0.5;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.100);
 }
 
 /* REPONSIVITY */
