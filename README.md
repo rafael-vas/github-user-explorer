@@ -12,7 +12,7 @@ O **github-user-explorer** é um projeto que permite aos usuários pesquisar e e
 
 Acesse o projeto hospedado no GitHub Pages:
 
-[github-user-explorer](https://rafael-vas.github.io/github-user-explorer/)
+[Clique aqui para acessar o projeto](https://rafael-vas.github.io/github-user-explorer/)
 
 Na página do projeto, insira o nome de usuário do GitHub que você deseja pesquisar na caixa de pesquisa e clique no botão "Buscar" ou pressione a tecla "Enter".
 
@@ -22,6 +22,11 @@ Os detalhes do usuário, juntamente com a lista de seus repositórios públicos,
 
 - HTML5, CSS3 e JavaScript: Para a estruturação, estilo e funcionalidade da aplicação.
 - API do GitHub: Para realizar solicitações e obter dados do usuário e seus repositórios públicos.
+
+## Link
+```
+https://rafael-vas.github.io/github-user-explorer/
+```
 
 ## Créditos
 
