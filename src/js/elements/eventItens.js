@@ -13,7 +13,7 @@ const createEventItens = (variableToStoreEvents, event) => {
             <li class="event-item">
             <strong class="name">${event.repo.name}</strong>
             <span class="message empty">
-                - não há mensagem
+                - ${event.type}
             </span>
             </li>
         `;
