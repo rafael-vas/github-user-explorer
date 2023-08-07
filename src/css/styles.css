@@ -101,6 +101,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  animation: fade-out .6s alternate;
 }
 
 .container .profile-data .info .data {
@@ -163,6 +164,24 @@ main {
 
 .container .profile-data .repositories {
   margin-top: 40px;
+  animation: fade-out .6s alternate;
+}
+
+@keyframes fade-out {
+  0% {
+    transform: translate(-10px) rotate(1deg) scale(.98);
+    opacity: 0;
+  }
+
+  60% {
+    opacity: .6;
+    transform: translate(10px) rotate(-1deg) scale(1.01);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0) rotate(0) scale(1);
+  }
 }
 
 .container .profile-data .repositories h2 {
@@ -187,7 +206,11 @@ main {
   transition: 0.15s ease-in-out;
   flex: 1;
   flex-basis: 30%;
-  max-width: 30%;
+  transition: all 0.2s ease-in-out;
+}
+
+.container .profile-data .repositories ul li:hover {
+  transform: scale(1.04);
 }
 
 .container .profile-data .repositories ul li a {
@@ -218,6 +241,10 @@ main {
 }
 
 /* EVENTS */
+
+.container .profile-data .event-section {
+  animation: fade-out .6s alternate;
+}
 
 .container .profile-data .event-section h2 {
   margin-bottom: 30px;
