@@ -4,8 +4,8 @@ O **github-user-explorer** é um projeto que permite aos usuários pesquisar e e
 
 ## Funcionalidades
 
-- Pesquisar e exibir informações básicas do usuário do GitHub (como nome, foto de perfil, bio, localização, etc.).
-- Visualizar a lista de repositórios públicos pertencentes ao usuário pesquisado.
+- Pesquisar e exibir informações do usuário do GitHub (como nome, foto de perfil, bio, localização, seguidores.).
+- Visualizar a lista de repositórios e eventos públicos pertencentes ao usuário pesquisado.
 - Manipulação de erros em caso de usuário não encontrado ou nome de usuário inválido.
 
 ## Como usar
@@ -16,12 +16,12 @@ Acesse o projeto hospedado no GitHub Pages:
 
 Na página do projeto, insira o nome de usuário do GitHub que você deseja pesquisar na caixa de pesquisa e clique no botão "Buscar" ou pressione a tecla "Enter".
 
-Os detalhes do usuário, juntamente com a lista de seus repositórios públicos, serão exibidos na tela.
+Os detalhes do usuário, juntamente com a lista de seus repositórios e eventos públicos, serão exibidos na tela.
 
 ## Tecnologias utilizadas
 
 - HTML5, CSS3 e JavaScript: Para a estruturação, estilo e funcionalidade da aplicação.
-- API do GitHub: Para realizar solicitações e obter dados do usuário e seus repositórios públicos.
+- API do GitHub: Para realizar solicitações e obter dados do usuário, repositórios e eventos públicos.
 
 ## Link
 ```
