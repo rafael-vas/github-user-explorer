@@ -1,3 +1,4 @@
 const baseUrl = "https://api.github.com/users";
+const eventsQuantity = 10;
 
-export { baseUrl };
+export { baseUrl, eventsQuantity };
